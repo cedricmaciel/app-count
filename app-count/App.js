@@ -134,6 +134,11 @@ export default function App() {
                             </TouchableOpacity>
                         </View>
                     ))}
+
+
+                    {/* área da função dos botões, quando acionados  amostra um formulário para adicionar  as informações desejadas  */}
+
+                    
                     {!mostrarFormularioGasto && (
                         <Button title="+" onPress={toggleFormularioGasto} />
                     )}
@@ -185,7 +190,7 @@ export default function App() {
 
                           {/*  mini tela de adicionar dados  */}
 
-                          
+
 
             <Modal visible={mostrarFormularioGasto} transparent={true}>
                 <View style={styles.modalContainer}>
