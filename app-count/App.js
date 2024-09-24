@@ -84,6 +84,9 @@ export default function App() {
 
     return (
         <ScrollView contentContainerStyle={styles.container}>
+
+                    {/* header e títulos */}
+                    
             <View style={styles.header}>
                 <Text style={styles.welcomeText}>Bem-vindo à Home</Text>
                 <Text style={styles.clockStyle}>{dateTime.toLocaleString()}</Text>
