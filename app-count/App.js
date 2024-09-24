@@ -152,6 +152,12 @@ export default function App() {
                 </View>
             </View>
 
+
+
+                   {/* área da tela de editor para apagar ou alterar dados */}
+
+                   
+
             <Modal visible={telaEditor} transparent={true}>
                 <View style={styles.modalContainer}>
                     <View style={styles.telaEditor}>
