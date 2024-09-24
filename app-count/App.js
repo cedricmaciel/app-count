@@ -86,7 +86,7 @@ export default function App() {
         <ScrollView contentContainerStyle={styles.container}>
 
                     {/* header e títulos */}
-                    
+
             <View style={styles.header}>
                 <Text style={styles.welcomeText}>Bem-vindo à Home</Text>
                 <Text style={styles.clockStyle}>{dateTime.toLocaleString()}</Text>
@@ -180,6 +180,12 @@ export default function App() {
                     </View>
                 </View>
             </Modal>
+
+
+
+                          {/*  mini tela de adicionar dados  */}
+
+                          
 
             <Modal visible={mostrarFormularioGasto} transparent={true}>
                 <View style={styles.modalContainer}>
