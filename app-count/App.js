@@ -366,7 +366,7 @@ const styles = StyleSheet.create({
     editor: {
         color: 'red',
         alignSelf: 'flex-end',
-        fontSize: 20,
+        fontSize: 30,
         bottom: 70,
     },
     modalContainer: {
