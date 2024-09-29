@@ -233,7 +233,7 @@ export default function App() {
                             style={styles.inputStyle}
                             onSubmitEditing={(e) => handleSubmitRenda('Renda', parseFloat(e.nativeEvent.text))}
                         />
-                        <Button title="Adicionar" onPress={() => handleSubmitRenda('Renda', 100)} />
+                        <Button title="Adicionar" onPress={() => handleSubmitRenda('Renda', 0)} />
                     </View>
                 </View>
             </Modal>
