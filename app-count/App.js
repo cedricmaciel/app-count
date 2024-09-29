@@ -233,7 +233,7 @@ export default function App() {
                             style={styles.inputStyle}
                             onSubmitEditing={(e) => handleSubmitRenda('Renda', parseFloat(e.nativeEvent.text))}
                         />
-                        <Button title="Adicionar" onPress={() => handleSubmitRenda('Renda', 0)} />
+                        <Button title="Adicionar" onPress={() => handleSubmitRenda('Renda', 100)} />
                     </View>
                 </View>
             </Modal>
@@ -335,7 +335,8 @@ const styles = StyleSheet.create({
     divbotao: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        width: '50%',
+          
+        
         
     },
     divbotao1: {
@@ -348,9 +349,12 @@ const styles = StyleSheet.create({
         marginLeft: 10,
     },
     divPrint: {
-        marginVertical: 5,
-        padding: 10,
-        borderWidth: 1,
+        
+        height: 70,
+        width: '100%',
+        marginVertical: 6,
+        
+       
         borderColor: '#999',
         borderRadius: 5,
         backgroundColor: '#fafafa',
@@ -363,6 +367,7 @@ const styles = StyleSheet.create({
         color: 'red',
         alignSelf: 'flex-end',
         fontSize: 20,
+        bottom: 70,
     },
     modalContainer: {
         flex: 1,
